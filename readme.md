@@ -12,7 +12,7 @@ This is a simple calculator web application built using TypeScript and Vite. It 
 
 Simply click on the following link to access the calculator:
 
-[Open Calculator](<insert your live URL here>)
+[Open Calculator](https://main.d2bx26t7kgxnox.amplifyapp.com/)
 
 ## Technologies Used
 
