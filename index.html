@@ -10,24 +10,24 @@
     <h1>TypeScript Calculator</h1>
     <div id="calculator">
         <input type="text" id="display" disabled>
-        <button onclick="clearDisplay()">C</button>
-        <button onclick="inputNumber(7)">7</button>
-        <button onclick="inputNumber(8)">8</button>
-        <button onclick="inputNumber(9)">9</button>
-        <button onclick="inputOperator('/')">/</button>
-        <button onclick="inputNumber(4)">4</button>
-        <button onclick="inputNumber(5)">5</button>
-        <button onclick="inputNumber(6)">6</button>
-        <button onclick="inputOperator('*')">*</button>
-        <button onclick="inputNumber(1)">1</button>
-        <button onclick="inputNumber(2)">2</button>
-        <button onclick="inputNumber(3)">3</button>
-        <button onclick="inputOperator('-')">-</button>
-        <button onclick="inputNumber(0)">0</button>
-        <button onclick="calculateResult()">=</button>
-        <button onclick="inputOperator('+')">+</button>
+        <button id="clearBtn">C</button>
+        <button id="num7Btn">7</button>
+        <button id="num8Btn">8</button>
+        <button id="num9Btn">9</button>
+        <button id="divideBtn">/</button>
+        <button id="num4Btn">4</button>
+        <button id="num5Btn">5</button>
+        <button id="num6Btn">6</button>
+        <button id="multiplyBtn">*</button>
+        <button id="num1Btn">1</button>
+        <button id="num2Btn">2</button>
+        <button id="num3Btn">3</button>
+        <button id="subtractBtn">-</button>
+        <button id="num0Btn">0</button>
+        <button id="equalBtn">=</button>
+        <button id="addBtn">+</button>
     </div>
 
-    <script src="calculator.ts" type="module"></script>
+    <script src="./src/calculator.ts" type="module"></script>
 </body>
 </html>
